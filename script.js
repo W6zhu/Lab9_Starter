@@ -15,7 +15,7 @@ form.addEventListener('submit', e => {
     console.error("Calculation error:", err);
     output.innerHTML = "Error";
   } finally {
-    console.log("Not a Valid Calculation");
+    console.log("Attempted Calculation");
   }
 });
 
